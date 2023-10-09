@@ -5,6 +5,7 @@ import {
   } from "@mui/x-data-grid";
   import "./dataTable.scss";
   import { Link } from "react-router-dom";
+//import { Mutation } from "react-query";
   // import { useMutation, useQueryClient } from "@tanstack/react-query";
   
   type Props = {
@@ -29,9 +30,10 @@ import {
     // //   }
     // // });
   
-    const handleDelete = (id: number) => {
+    const handleDelete = (id:number) => {
       //delete the item
-      // mutation.mutate(id)
+      //Mutation.mutate(id)
+      console.log(id);
     };
   
     const actionColumn: GridColDef = {
