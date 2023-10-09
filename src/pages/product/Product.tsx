@@ -1,5 +1,5 @@
 import Single from '../../components/single/Single'
-import { singleProduct, singleUser } from '../../data'
+import { singleProduct } from '../../data'
 import './product.scss'
 const Product = () => {
   //fetch data and send to single component
